@@ -3,30 +3,30 @@
 # * base_bank_account_number_unique
 # 
 # Translators:
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2016
+# Pedro Castro Silva <pedrocs@sossia.pt>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: bank-statement-import (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-24 00:33+0000\n"
-"PO-Revision-Date: 2016-12-30 08:18+0000\n"
-"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/oca/OCA-bank-statement-import-8-0/language/fr/)\n"
+"POT-Creation-Date: 2016-08-18 10:27+0000\n"
+"PO-Revision-Date: 2016-09-07 09:15+0000\n"
+"Last-Translator: Pedro Castro Silva <pedrocs@sossia.pt>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/oca/OCA-bank-statement-import-8-0/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_bank_account_number_unique
 #: sql_constraint:res.partner.bank:0
 msgid "Account Number must be unique"
-msgstr "Le numéro de compte doit être unique"
+msgstr "O Número de Conta tem que ser único"
 
 #. module: base_bank_account_number_unique
 #: model:ir.model,name:base_bank_account_number_unique.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "Comptes Bancaire"
+msgstr "Contas Bancárias"
 
 #. module: base_bank_account_number_unique
 #: code:addons/base_bank_account_number_unique/hooks.py:45
@@ -36,4 +36,4 @@ msgid ""
 "The following shows the first %d duplicate account numbers\n"
 "%s\n"
 "(if you see less than %d, those are the only duplicates)"
-msgstr "L'installation du module ne peut être faite car vous avez des doublons sur les numéro de compte dans votre système. Veuillez les nettoyer et re-essayer.\nLa ligne suivante montre le premier doublons %d et le numéro de compte dupliqué %s\n(si vous voyez moins de %d, il s'agit de duplication seule)"
+msgstr "A instalação do módulo não pode prosseguir uma vez que já existem números de conta duplicados no sistema. Por favor, corrija a situação e tente novamente.\nVeja a seguir os %d primeiros números de conta duplicados\n%s\n(se vê menos de %d, este são os únicos duplicados)"
